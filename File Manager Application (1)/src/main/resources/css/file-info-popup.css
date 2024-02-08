@@ -1,0 +1,31 @@
+.popup-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff; /* White text for contrast */
+}
+
+VBox {
+    -fx-padding: 20;
+    -fx-background-color: linear-gradient(to bottom, #749df6, #36b1f0);
+    -fx-border-color: #27496d;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px; /* More pronounced rounded corners */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.7), 15, 0.0, 0, 10); /* Enhanced shadow for depth */
+}
+
+Label {
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+    -fx-text-fill: #e3f2fd; /* Lighter blue for readability, ensuring good contrast */
+}
+
+Button {
+    -fx-background-color: #1e3c72, linear-gradient(#2a5298, #1e3c72), linear-gradient(#0c5f9f, #1999d1);
+    -fx-background-radius: 5px;
+    -fx-background-insets: 0, 1, 2;
+    -fx-text-fill: #ffffff; /* White text for contrast */
+    -fx-font-weight: bold;
+    -fx-padding: 10 20 10 20; /* Top Right Bottom Left */
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.8), 5, 0, 0, 2); /* Subtle shadow for button */
+}

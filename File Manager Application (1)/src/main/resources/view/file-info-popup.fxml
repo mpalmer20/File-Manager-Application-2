@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+<VBox fx:id="popupContainer" spacing="10" alignment="CENTER" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="palmer.matthew.filehandler.controller.FileInfoPopupController" stylesheets="@../css/file-info-popup.css">
+    <Label text="File Information" styleClass="popup-title"/>
+    <Label fx:id="fileNameLabel" text="File Name:"/>
+    <Label fx:id="fileSizeLabel" text="File Size:"/>
+    <Label fx:id="fileOwnerLabel" text="Owner:"/>
+    <Label fx:id="fileCreationDateLabel" text="Creation Date:"/>
+    <Label fx:id="fileModificationDateLabel" text="Modification Date:"/>
+    <Button text="Close" onAction="#handleClose"/>
+</VBox>
